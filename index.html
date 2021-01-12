@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- my CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Character Counter</title>
+  </head>
+
+  <body>
+    <h3>Character Counter</h3>
+    <p>
+      The count will update itself as the number of characters in the textbox
+      increases or decreases.
+    </p>
+
+    <input
+      type="text"
+      id="inputText"
+      placeholder="start typing"
+      maxlength="60"
+      onkeyup="updateCounter(this.value)"
+    />
+    <h4>Total Character Count: <span id="charCountUp"></span></h4>
+    <h4>Characters Left: <span id="charCountDown"></span></h4>
+
+    <!-- my script -->
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
