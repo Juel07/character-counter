@@ -9,7 +9,7 @@ Link to project: https://juel07.github.io/character-counter/
 
 ### Demo
 
-![quick website demo](website-demo-gif.gif)
+![quick website demo](website-demo.gif)
 
 ### Technologies
 
