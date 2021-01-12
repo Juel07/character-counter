@@ -1,4 +1,4 @@
-const updateCounter = (str) => {
+function updateCounter(str) {
 
     // count and update the total number of characters
     document.querySelector('#charCountUp').innerHTML = str.length
