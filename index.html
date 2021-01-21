@@ -16,15 +16,13 @@
       increases or decreases.
     </p>
 
-    <input
-      type="text"
-      id="inputText"
+    <textarea
       placeholder="start typing"
-      maxlength="60"
       onkeyup="updateCounter(this.value)"
-    />
-    <h4>Total Character Count: <span id="charCountUp"></span></h4>
-    <h4>Characters Left: <span id="charCountDown"></span></h4>
+    ></textarea>
+
+    <h4>Total Character Count: <span id="charCountUp">0</span></h4>
+    <h4>Characters Left: <span id="charCountDown">500</span></h4>
 
     <!-- my script -->
     <script>
@@ -32,11 +30,11 @@
         // count and update the total number of characters
         document.querySelector("#charCountUp").innerHTML = str.length;
 
-        // count down and update the characters left out of 50
-        document.querySelector("#charCountDown").innerHTML = 50 - str.length;
+        // count down and update the characters left out of 500
+        document.querySelector("#charCountDown").innerHTML = 500 - str.length;
 
-        // change color to red, if characters are more than 50
-        if (50 - str.length < 0) {
+        // change color to red, if characters are more than 500
+        if (500 - str.length < 0) {
           document.querySelector("#charCountDown").style.color = "#db0a0a";
         } else {
           document.querySelector("#charCountDown").style.color = "#111111";

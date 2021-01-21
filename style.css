@@ -38,14 +38,14 @@ h4 {
   color: #111111;
 }
 
-input[type="text"] {
+textarea {
   border: 1px solid black;
   padding: 0.5em;
   width: 400px;
   margin: 1em;
 }
 
-input::placeholder {
+textarea::placeholder {
   color: #353131;
 }
 
@@ -63,7 +63,7 @@ input::placeholder {
     font: normal 14px/120% Arial, sans-serif;
   }
 
-  input[type="text"] {
+  textarea {
     width: 300px;
   }
 }
